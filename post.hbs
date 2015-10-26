@@ -18,8 +18,10 @@
 <footer class="post-footer">
 
     <section class="author">
-         <img src="{{author.image}}" class="profileimage"> 
-
+        {{#if author.image}}
+          <img src="{{author.image}}" class="profileimage"> 
+        {{/if}}
+        
         <p>
             <strong><a href="{{#author}}{{url}}{{/author}}">Written by {{author.name}}</a></strong>
             <br>

@@ -1,4 +1,4 @@
-/* 
+/*
 
 Hoist Notes theme, created by Eliot Slevin at Hoist.io
 
@@ -9,7 +9,10 @@ Hoist Notes theme, created by Eliot Slevin at Hoist.io
 5 -	Sidebar content styling
 6 -	Page header structure and styling
 7 -	Post list styling
-8 -	Footer 
+8 -	Footer
+
+DSJ modification: replace proxima-nova with Alegreya Sans
+
 
 */
 /*============================================================
@@ -43,6 +46,11 @@ main {
       float: left;
       /*margin-left: 400px;*/ } }
 
+
+/* DSJ addition */
+sidebar img {width: 100%;}
+
+
 /*============================================================
 3	Compressed sidebar layout
 ============================================================*/
@@ -73,8 +81,11 @@ main {
 4	Article Typography and Elements
 ============================================================*/
 h1, h2, h3, h4 {
-  font-family: "proxima-nova", sans-serif;
-  color: #2b93d8; }
+  /* DSJ modification
+  font-family: "Alegreya Sans", sans-serif;
+  color: #2b93d8;*/
+  font-family: 'Alegreya Sans', sans-serif;
+  color: rgb(67,190,181); }
 
 h1 {
   font-size: 40px;
@@ -117,7 +128,9 @@ hr {
   background-color: #f2f2f2; }
 
 a {
-  color: #2b93d8;
+  /* DSJ modification
+  color: #2b93d8; */
+  color: rgb(67,190,181);
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -163,7 +176,7 @@ sidebar div {
     color: rgba(255, 0, 0, 0.5);
     font-size: 18px; }
   sidebar div a {
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     color: #333333;
     text-decoration: none;
     padding: 8px;
@@ -182,7 +195,7 @@ sidebar .input-group {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   sidebar .input-group input {
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     font-size: 13px;
     border-style: none;
     padding: 12px;
@@ -193,7 +206,7 @@ sidebar .input-group {
   sidebar .input-group button {
     border-style: none;
     background-color: #2b93d8;
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     font-size: 13px;
     color: white;
     padding: 12px;
@@ -211,13 +224,13 @@ header {
   margin-right: -3.75rem;
   margin-bottom: 3.75rem; }
   header span {
-    font-family: "proxima-nova", sans-serif;
-    font-size: 13px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 25px;
     text-transform: uppercase;
     color: #666666;
     letter-spacing: 1px; }
   header a {
-    color: #2b93d8;
+    color: rgb(67,190,181);
     font-weight: 600;
     line-height: 60px;
     text-decoration: none; }
@@ -230,7 +243,7 @@ header {
     text-align: center;
     line-height: 140px;
     font-size: 40px;
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     color: #333333; }
 
 .author-header {
@@ -251,7 +264,7 @@ header {
     margin-right: auto; }
     .author-header p strong {
       font-size: 40px;
-      font-family: "proxima-nova", sans-serif; }
+      font-family: "Alegreya Sans", sans-serif; }
 
 /*============================================================
 7	Post list styling
@@ -271,15 +284,15 @@ article.post {
   display: block;
   width: 100%;
   text-align: left;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   color: rgba(0, 0, 0, 0.5); }
 
 /*============================================================
-8	Footer 
+8	Footer
 ============================================================*/
 nav {
   padding-bottom: 3.75rem;
-  font-family: "proxima-nova", sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   text-decoration: none;
@@ -324,7 +337,7 @@ nav {
   .author p {
     float: right;
     width: calc(100% - 70px - 2rem);
-    font-family: "proxima-nova", sans-serif;
+    font-family: "Alegreya Sans", sans-serif;
     font-size: 16px; }
     .author p strong {
       margin-bottom: 10px;
@@ -375,7 +388,7 @@ nav {
     background-color: #333333;
     overflow: hidden; }
     .color-blocks .sign-up .input-group input {
-      font-family: "proxima-nova", sans-serif;
+      font-family: "Alegreya Sans", sans-serif;
       font-size: 13px;
       border-style: none;
       padding: 12px;
@@ -386,7 +399,7 @@ nav {
     .color-blocks .sign-up .input-group button {
       border-style: none;
       background-color: #2b93d8;
-      font-family: "proxima-nova", sans-serif;
+      font-family: "Alegreya Sans", sans-serif;
       font-size: 13px;
       color: white;
       padding: 12px;
