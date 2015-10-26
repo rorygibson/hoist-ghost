@@ -168,12 +168,11 @@ sidebar div {
     display: block;
     width: 100%; }
   sidebar div h4 {
-    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(67,190,181,0.5);
     padding-bottom: 10px;
     margin-bottom: 10px;
     margin-top: 0px;
     font-weight: 600;
-    color: rgba(255, 0, 0, 0.5);
     font-size: 18px; }
   sidebar div a {
     font-family: "Alegreya Sans", sans-serif;
@@ -183,7 +182,7 @@ sidebar div {
     margin-left: -8px; }
   sidebar div a:hover {
     background-color: white;
-    color: rgba(255, 0, 0, 0.5); }
+    color: rgba(67,190,181,0.5); }
 sidebar .show {
   opacity: 1 !important; }
 sidebar .input-group {
@@ -464,6 +463,24 @@ button#doorbell-button {
   text-transform: uppercase;
 }
 
+#doorbell-background {
+  background-color: #c0c0c0;
+}
+
+#doorbell button {
+  color: rgb(67, 190, 181);
+}
+
+#doorbell-form {
+  font-size: 12pt;
+}
+
+#doorbell-form .btn-primary {
+  background-color: rgb(67,190,181) !important;
+  border-color: rgb(67,190,181) !important;
+  text-transform: uppercase;
+  color: #fff;
+}
 
 @media (max-width:768px) {
   #doorbell-button {
@@ -476,6 +493,7 @@ button#doorbell-button {
     left: 0 !important;
   }
 }
+
 
 
 
